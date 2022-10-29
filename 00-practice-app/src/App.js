@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SearchCloths from './pages/SearchCloths';
-import SavedCloths from './pages/SavedCloths';
+import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
 import Navbar from './navbar';
 
@@ -16,8 +16,8 @@ function App() {
             element={<SearchCloths />} 
           />
           <Route 
-            path='/saved' 
-            element={<SavedCloths />} 
+            path='/Cart' 
+            element={<Cart />} 
           />
           <Route 
           path='/Checkout'

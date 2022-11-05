@@ -1,8 +1,7 @@
-/* eslint-disable eqeqeq */
 
 import React, { useState } from "react";
 import SearchIcon from "@material-ui/icons/Search";
-import CloseIcon from "@material-ui/icons/SearchCloths";
+import CloseIcon from "@material-ui/icons/Close";
 // in this section a search bar that filters data is built//// 
 function SearchBar({ placeholder, data }) {
   const [filteredData, setFilteredData] = useState([]);
@@ -44,11 +43,11 @@ function SearchBar({ placeholder, data }) {
           )}
         </div>
       </div>
-      {filteredData.length != 0 && (
+      {filteredData.length !== 0 && (
         <div className="dataResult">
-          {filteredData.slice(0, 15).map((value, _key) => {
+          {filteredData.slice(0, 15).map((value, key) => {
             return (
-              <a className="dataItem" href={value.link} target="_blank" rel="noreferrer">
+              <a className="dataItem" href="{value.link}" target="_blank">
                 <p>{value.title} </p>
               </a>
             );

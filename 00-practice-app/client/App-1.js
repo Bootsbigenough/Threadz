@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import SearchCloths from './pages/SearchCloths';
+import SearchCloths from './SearchCloths';
 import Cart from './pages/Cart';
-import Checkout from './pages/Checkout';
+import Checkout from './Checkout';
 import Navbar from './navbar';
 
 function App() {
@@ -34,3 +34,4 @@ function App() {
 }
 
 export default App;
+

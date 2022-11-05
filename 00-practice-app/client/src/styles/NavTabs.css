@@ -12,6 +12,7 @@ img{
 margin-right: 10em;
 margin-left: 0%;
 align-items: flex-start;
+display: flex;
 }
 
 ul {
@@ -36,7 +37,9 @@ height: 3em;
 } 
 
 .search {
-width: 6em;
+width: 7em;
+height: 3em;
+
 }
 
 .Links{

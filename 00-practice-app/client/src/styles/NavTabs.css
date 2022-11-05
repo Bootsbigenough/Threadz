@@ -1,0 +1,60 @@
+.Btnbar{
+display: flex;
+align-items: center;
+}
+
+#nav-tabs{
+margin-right: 2em;
+width: 100%;
+}
+
+img{
+margin-right: 10em;
+margin-left: 0%;
+align-items: flex-start;
+}
+
+ul {
+justify-content: center;
+margin: 2em;
+display: flex; 
+align-items: center;
+margin-top: 0%;
+width: 100%;
+} 
+
+.Btn {
+font-size: .65em;
+text-align: center;
+width: 6em;
+border-radius: .5em;
+background-color: blue;
+color: whitesmoke;
+margin-right: 1em;
+margin-left: .3em;
+height: 3em;
+} 
+
+.search {
+width: 6em;
+}
+
+.Links{
+display: flex;
+flex-direction: column;
+margin-right: 2em;
+align-items: center;
+color: blue;
+text-decoration: none;
+justify-content: space-between;
+}
+
+/* #cartBtn {
+
+    border-radius: .5em;
+background-color: blue;
+color: whitesmoke;
+display: flex;
+float: right;
+margin-right: .5em;
+} */

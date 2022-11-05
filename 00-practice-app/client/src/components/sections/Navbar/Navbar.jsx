@@ -52,7 +52,7 @@ const Navbar = () => {
           className=""
           alt="threadzlogo"
         />
-        <div className='Links' >
+        <div className='Links' marginLeft="1em" >
             {navbarData.map((el, id) => (
               <LinkItem el={el} key={id} />
             ))}
